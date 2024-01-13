@@ -1,0 +1,126 @@
+# car-audi-q7
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>audi</title>
+    <style>
+        body {
+            background-color: #ffffff; /* Голубой цвет фона */
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: black; /* Белый цвет для шапки сайта */
+            padding: 10px;
+            text-align: center;
+            font-size: 30px
+        }
+
+        button {
+            background-color: rgb(255, 255, 255); 
+            color: #000000; 
+            padding: 20px 20px;
+            margin: 10px;
+            border: none;
+            cursor: pointer;
+            font-size: 30px; 
+        }
+
+        button:hover {
+            background-color: #dabae4; /* Светло-голубой цвет при наведении на кнопки */
+        }
+
+        main {
+            text-align: center;
+            padding: 20px;
+            
+        }
+
+        img {
+            width: 1000px;
+            max-width: 2000px; /* Максимальная ширина изображения */
+            height: auto;
+            margin: 0 auto; /* Центрирование изображения */
+            padding: 10px;
+        }
+        .icon{
+            margin-left: 10px;
+            width: 100px;
+            height: 100px;
+           
+        }
+        .text {
+            font-size: 20px ;
+            color: #000000;
+        }
+        .popup {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+    }
+    </style>
+</head>
+<body>
+
+
+
+<script>
+    // Всплывающее окно с номером телефона //
+<div id="phonePopup" class="popup">Номер телефона: 0975433985</div>
+
+  // Функция для отображения всплывающего окна
+  function showPopup() {
+    document.getElementById('phonePopup').style.display = 'block';
+  }
+
+  // Функция для скрытия всплывающего окна
+  function hidePopup() {
+    document.getElementById('phonePopup').style.display = 'none';
+  }
+
+  // Получаем кнопку и всплывающее окно
+  var phoneButton = document.getElementById('phoneButton');
+  var phonePopup = document.getElementById('phonePopup');
+
+  // Добавляем обработчики событий
+  phoneButton.addEventListener('mouseover', showPopup);
+  phoneButton.addEventListener('mouseout', hidePopup);
+</script>
+
+
+
+
+<header>
+    <img class="icon " src="https://www.figma.com/file/JSUHEMtpnDeM33LFjevG4Z/Untitled?type=design&t=hqrOP4s2CnWXM3ud-6"/>
+    <button onclick="window.location.href='https://www.aelita.ua/ru/avtomobili/audi-q7?gclid=CjwKCAiAqNSsBhAvEiwAn_tmxbS4REnzjXTQtl6QRTcQ8qV9OvBii6SKUxKSDQL7VNaD2vEjB9KChRoC4S0QAvD_BwE'" target="_blank">Перейти на сайт Audi Q7</button>
+    <button onclick="window.location.href='https://auto.ria.com/'" target="_blank">продать</button>
+    <button onclick="window.location.href='https://auto.ria.com/'" target="_blank">купить</button>
+    <button>контакты</button>
+    <button id="phoneButton">Наведите для телефона</button><!-- Кнопка события -->
+</header>
+
+<main> 
+    <a href="https://www.figma.com/file/63ybsKsg3ouNqh9vM6lCAL/animation?type=design&t=LH0DZ60uTQ564Pcb-6"></a href>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/90-365_Audi_Q7_%2851089323875%29_%28cropped%29.jpg" >
+    <p class="text">Audi Q7 — среднеразмерный кроссовер, выпускаемый компанией Audi.
+         Его премьера состоялась в сентябре 2005 года на Международном автосалоне во Франкфурте[1].
+        Audi Q7 базируется на концепте Audi Pikes Peak quattro, представленном в 2003 году на автосалоне в Детройте[2]. Audi Q7 создан на платформе "E".
+        Вместе с ним на заводе Volkswagen Slovakia в Братиславе (Словакия) на этой же платформе выпускаются модели концерна Volkswagen — Touareg и Porsche Cayenne[3].
+        Q7 оснащается постоянным полным приводом (quattro) с распределением крутящего момента между передней и задней осью в соотношении 40:60[4][5].
+         В качестве дополнительного оборудования предлагается третий ряд сидений для пассажиров, рост которых меньше 160 см.
+        В этом случае Q7 имеет семь посадочных мест (в стандартной версии)[6]. Доступ к третьему ряду сидений несколько затруднён, поскольку сиденья (многоместное сиденье) второго ряда не откидываются полностью, а имеют складные спинки.
+        По желанию во втором ряду можно установить два отдельных сиденья и центральную консоль. В этом случае число посадочных мест сократится до шести или четырёх (при отсутствии третьего ряда сидений).</p>
+    <img src="c:\Users\Пользователь\Downloads\audi q8.jpg">
+    
+</main>
+
+</body>
+</html>
